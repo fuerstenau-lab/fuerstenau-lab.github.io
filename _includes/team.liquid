@@ -1,6 +1,5 @@
 <div class="col">
   {% if project.inline %}
-    {{ project.content | remove: '<a>' | remove: '</a>' | emojify }}
   {% else %}
     <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
   {% endif %}
@@ -10,7 +9,7 @@
           include figure.liquid
           loading="eager"
           path=project.img
-          sizes = "250px"
+          sizes = "150px"
           alt="project thumbnail"
           class="card-img-top"
         %}
@@ -37,5 +36,8 @@
         </div>
       </div>
     </div>
-  </a>
+      {% if project.inline %}
+  {% else %}
+    </a>
+  {% endif %}
 </div>
