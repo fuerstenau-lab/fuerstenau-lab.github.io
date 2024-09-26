@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Daniel Fürstenau
+title: Prof. Dr. Daniel Fürstenau
 description: 
 img: assets/img/12.jpg
 importance: 1
