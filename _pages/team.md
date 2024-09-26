@@ -14,7 +14,7 @@ horizontal: false
 <!-- pages/team.md -->
 <div class="team">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  <!-- Display team categories -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
