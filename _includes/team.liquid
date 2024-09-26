@@ -1,5 +1,5 @@
 <div class="col">
-  {% if item.inline %}
+  {% if project.inline %}
   {% else %}
     <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
   {% endif %}
@@ -16,7 +16,9 @@
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+        <p class="card-text">{{ project.bio1 }}</p>
+        <p class="card-text">{{ project.bio2 }}</p>
+
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
