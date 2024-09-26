@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: teams
+permalink: /teams/
 description: A growing collection of your cool projects.
-nav: false
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Principal Investigator, Pre- and PostDocs, Research Assistants]
 horizontal: false
 ---
 
