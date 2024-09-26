@@ -198,6 +198,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  team:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true

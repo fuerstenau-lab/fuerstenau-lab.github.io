@@ -2,7 +2,7 @@
 layout: page
 title: Team
 permalink: /team/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: [Principal Investigator, Pre- and PostDocs, Research Assistants]
