@@ -11,8 +11,8 @@ horizontal: false
 
 
 
-<!-- pages/projects.md -->
-<div class="projects">
+<!-- pages/team.md -->
+<div class="team">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
