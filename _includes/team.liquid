@@ -3,7 +3,7 @@
   {% else %}
     <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
   {% endif %}
-    <div class="card h-75 w-75 hoverable">
+    <div class="card h-90 w-75 hoverable">
       {% if project.img %}
         {%
           include figure.liquid

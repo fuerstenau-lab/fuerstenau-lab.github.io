@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dr. Moritz Schiltenwolf
-bio1: Postdoctoral Researcher (FU)
+title: Dr. Max Mustermann
+bio1: Postdoc
 bio2: 
 img: assets/img/einst.png
 importance: 1
