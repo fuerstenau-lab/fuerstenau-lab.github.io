@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dr. Moritz Schiltenwolf
-bio1: Postdoctoral Researcher
+bio1: Postdoctoral Researcher (FU)
 bio2: 
 img: assets/img/11.jpg
 importance: 1
