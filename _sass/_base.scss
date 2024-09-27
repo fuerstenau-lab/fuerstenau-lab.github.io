@@ -669,8 +669,9 @@ footer.sticky-bottom {
 
   .card {
     img {
-      width: 100%;
-    }
+      width: 150px;
+      overflow: hidden; 
+      border-radius: 50%;    }
   }
 
   .col {
@@ -679,7 +680,7 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 50px;
+    width: 150px;
     margin-bottom: 10px;
   }
 
